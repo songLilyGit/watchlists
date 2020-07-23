@@ -42,3 +42,12 @@ movies = [ {'title': 'My Neighbor Totoro', 'year': '1988'},
 def index():
     return render_template('index.html',name=name,movies=movies)
 
+@app.route('/result')
+def result():
+    dict={"phy":50,"che":20,"maths":30}
+    return  render_template("hello.html",result=dict)
+
+@app.route('/guolv')
+def hello_world():
+    student={"name":"lili","age":-18}
+    return render_template("guolv.html",**student)

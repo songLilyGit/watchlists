@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+</head>
+<body>
+<p>{{ age|abs }}</p>
+<p>{{ 'hello'|capitalize}}</p>
+<p>{{ 'hello'|replace('h','x')}}</p>
+<p>{{[01,03,30,40,34]|first}}</p>
+<p>{{[01,04,34,24,23]|last}}</p>
+<p>{{[01,04,34,25,45]|count}}</p>
+<p>{{[01,23,54,23,33]|sort}}</p>
+<p>{{[01,23,345,23,12]|join(',')}}</p>
+<p>{{18.88888|round(2,'floor')}}</p>
+<p>{{18.88888|round}}</p>
+<p>{{-78|abs}}</p>
+</body>
+</html>
