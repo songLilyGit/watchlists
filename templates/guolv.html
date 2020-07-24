@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>过滤器</title>
+    <style>
+        .line{
+        display:inline-block;
+        height:1px;
+        width:100%;
+        background:#00CCFF;
+        overflow:hidden;
+        vertical-algin:middle;
+        }
+    </style>
 </head>
 <body>
 <p>{{ age|abs }}</p>
@@ -16,5 +26,10 @@
 <p>{{18.88888|round(2,'floor')}}</p>
 <p>{{18.88888|round}}</p>
 <p>{{-78|abs}}</p>
+
+{%for good in goods%}
+<li style="list-style-type:none">{{good.name}}<span class="{{loop.index|index_class}}"></span>
+</li>
+{%endfor%}
 </body>
 </html>

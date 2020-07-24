@@ -50,4 +50,30 @@ def result():
 @app.route('/guolv')
 def hello_world():
     student={"name":"lili","age":-18}
-    return render_template("guolv.html",**student)
+    goods=[
+        {'name':'怪味少女'},
+        {'name':'复杂牛仔'},
+        {'name':'秋天外套'},
+        {'name':'冬天羽绒服'}
+    ]
+    return render_template("guolv.html",**student,goods=goods)
+
+def do_index_class(index):
+    if index%3==0:
+        return 'line'
+    else:
+        return ''
+
+app.add_template_filter(do_index_class,'index_class')
+
+@app.route('/macro')
+def hello_macro():
+    return  render_template("hong.html")
+
+@app.route('/jicheng')
+def jicheng():
+    return  render_template("jicheng.html")
+
+@app.route('/product')
+def product():
+    return  render_template("product.html")

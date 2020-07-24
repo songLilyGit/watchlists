@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宏相关</title>
+    <style type="text/css">
+        .header{
+        width:100%;
+        height:40px;
+        margin:20px 20px;
+        color:#00ccff
+        }
+        .footer{
+        width:100%;
+        height:40px;
+        margin:20px 20px;
+        margin:20px 20px;
+        }
+        .content{
+        width:100%;
+        height:40px;
+        margin:20px 20px;
+        color:#00ccff
+        }
+    </style>
+</head>
+<body>
+{% include "header.html" %}
+<div class="content">
+    这是网页内容
+</div>
+
+{% import 'form.html' as form %} <!--导入宏-->
+{#宏的调用#}
+<div style="color:#00fffc">
+    <p>用户名：{{form.input('usrname')}}</p>
+    <p>密码：{{form.input('password',type='passworld')}}</p>
+    <p>登陆：{{form.input('submit',type='submit',value='登陆')}}</p>
+</div>
+
+{% include "footer.html"%}
+</body>
+</html>
