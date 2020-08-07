@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcad4c65-4067-4c61-8531-999f7ca10e2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/09eef8d8055d4c8aa78cb677a7ca350c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/22bf564e555f4a919a51548696f37db3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/328458b31a5349d992204e01b374143e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/6c3eca3479674bfabf313a2603e382e7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/b4d6c2e7e9f1419b92913ef65ba870f3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/c9dbcee53b004013b219457f0dcbe077.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/f525a47faf964165b313fb1f6e65ec40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ckeditor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/macro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/post_rich.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/show_image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.flaskenv" afterPath="$PROJECT_DIR$/.flaskenv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watchlists.iml" afterPath="$PROJECT_DIR$/.idea/watchlists.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pipfile" afterPath="$PROJECT_DIR$/Pipfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pipfile.lock" afterPath="$PROJECT_DIR$/Pipfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/hong.html" afterPath="$PROJECT_DIR$/templates/hong.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -438,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595554801188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="近期的表单学习">
+      <created>1596795466645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596795466645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,7 +472,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加一个数据" />
     <MESSAGE value="0723 学习模板的基本用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="0723 学习模板的基本用法" />
+    <MESSAGE value="近期的表单学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="近期的表单学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
